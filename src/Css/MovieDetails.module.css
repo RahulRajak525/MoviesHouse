@@ -71,17 +71,18 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(233, 227, 220);
+    height: 100vh;
   }
   .poster img {
     width: 90vw;
-    height: 80vh;
+    height: 50vh;
     margin-top: 1rem;
     margin: 1rem 1rem;
     border-radius: 10px;
   }
   .details {
     width: 100vw;
-    height: auto;
+    height: 50vh;
     margin-top: 1.5rem;
   }
 }
