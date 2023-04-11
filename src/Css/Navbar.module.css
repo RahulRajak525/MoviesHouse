@@ -1,0 +1,41 @@
+.navbar {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #333;
+  color: white;
+}
+
+.navbar__title {
+  font-size: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.navbar__search {
+  margin-right: 20px;
+}
+
+.navbar__search input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.navbar__search button {
+  padding: 8px;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 750px) {
+  .navbar__search input {
+    width: 100px;
+  }
+}
